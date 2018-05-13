@@ -3,7 +3,7 @@ const Img       = require('./models/image');
 
 mongoose.Promise = Promise;
 
-//connecting the database
+//connection a la base db
 mongoose.connect('mongodb://localhost:27017/images');
 
 module.exports = Img;

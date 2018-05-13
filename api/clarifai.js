@@ -1,6 +1,6 @@
 const clarifai = require('clarifai');
 
-//Using clarifai app and implements our method (ES6 features)
+//On utilise l'app clarifai et sa methode
 class ImageProcessing extends clarifai.App {
     constructor(clientID, clientSecret) {
         super(clientID, clientSecret);
@@ -11,5 +11,5 @@ class ImageProcessing extends clarifai.App {
     }
 }
 
-// instantiate a new image with clientId and clientSecret
+// instancition d'une nouvelle image
 module.exports = new ImageProcessing('clientID', 'clientSecret');

@@ -1,6 +1,6 @@
 const mongoose  = require('mongoose');
 
-//build our schema for db
+//construction de notre schema pour la db
 const imageSchema = mongoose.Schema({
     path : String,
     tags:  [String]
